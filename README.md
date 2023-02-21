@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Proyecto: Componente de Autenticación de Usuario
+
+Crea un componente de autenticación de usuario utilizando HOC. Este componente debe permitir la autenticación de los usuarios en la aplicación, y debe ser fácilmente reutilizable en cualquier parte de la aplicación que requiera autenticación.
+
+# Pasos sugeridos:
+
+    1. Crea un HOC que envuelva el componente que requiere autenticación. Este HOC debe verificar si el usuario está autenticado o no.
+
+    2. Si el usuario no está autenticado, el HOC debe redirigir al usuario a una página de inicio de sesión.
+
+    3. Si el usuario está autenticado, el HOC debe renderizar el componente original.
+
+    4. Para la autenticación, puedes utilizar una función que verifique si el usuario tiene una sesión activa en el servidor. 5 .Si el usuario no tiene una sesión activa, debes redirigir al usuario a la página de inicio de sesión.
+
+    Para la página de inicio de sesión, puedes crear otro componente que permita al usuario ingresar sus credenciales. Después de que el usuario se haya autenticado, puedes establecer una sesión activa en el servidor y redirigir al usuario a la página original que solicitó.
+
+Con este proyecto, podrás aprender cómo utilizar HOC en React y cómo crear componentes reutilizables que pueden proporcionar una funcionalidad importante, como la autenticación de usuarios. Además, también podrás aprender cómo implementar la autenticación de usuarios en tu aplicación web.
