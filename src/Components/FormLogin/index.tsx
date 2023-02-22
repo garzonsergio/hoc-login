@@ -13,7 +13,7 @@ function FormLogin() {
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
-    setFormFields((prevState) => ({ ...prevState, [name]: value }));
+    setFormFields((prevState: any) => ({ ...prevState, [name]: value }));
   };
 
   const submit = (event: React.FormEvent<HTMLFormElement>) => {

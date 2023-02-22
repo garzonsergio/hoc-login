@@ -7,6 +7,7 @@ import { ProfilePage } from "./Pages/ProfilePage";
 import reportWebVitals from "./reportWebVitals";
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
